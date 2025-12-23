@@ -1,0 +1,79 @@
+/* --- Mobile Responsiveness --- */
+@media (max-width: 600px) {
+    .container {
+        padding: 1.2rem;
+        margin: 10px;
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    /* Stack Input Options */
+    .input-group,
+    .input-options {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    input[type="text"]#taskInput,
+    input[type="date"],
+    select,
+    .flatpickr-input {
+        width: 100%;
+        min-width: 100%;
+    }
+
+    #addTaskBtn {
+        width: 100%;
+        padding: 12px;
+    }
+
+    /* Settings Panel Stacking */
+    .settings-panel {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .settings-group {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .phone-input {
+        width: 100%;
+    }
+
+    .setting-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Task Item adjustments */
+    .task-item {
+        padding: 1rem;
+        padding-right: 45px;
+        /* constant space for delete */
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .task-content-wrapper {
+        width: 100%;
+    }
+
+    .delete-btn {
+        top: 20px;
+        /* Aligned with top */
+        right: 10px;
+        transform: none;
+        padding: 10px;
+        /* Larger touch target */
+    }
+
+    .task-meta {
+        margin-top: 5px;
+    }
+}
