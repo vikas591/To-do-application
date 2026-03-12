@@ -1,0 +1,39 @@
+{
+    "name": "Premium Tasks",
+    "short_name": "Tasks",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#0f172a",
+    "theme_color": "#0f172a",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "logo.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "id": "/",
+    "description": "A premium gamified To-Do list application.",
+    "screenshots": [
+        {
+            "src": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=720&h=1280",
+            "sizes": "720x1280",
+            "type": "image/jpeg",
+            "form_factor": "narrow",
+            "label": "Home Screen"
+        },
+        {
+            "src": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=1280&h=720",
+            "sizes": "1280x720",
+            "type": "image/jpeg",
+            "form_factor": "wide",
+            "label": "Home Screen"
+        }
+    ]
+}
